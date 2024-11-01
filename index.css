@@ -1,37 +1,26 @@
-/*estilo do cabeçalho*/
-header {
-    text-align: center; 
-    padding: 20px;
- }
- /*estilo do menu de navegação*/
- nav {
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    word-spacing: 30px;
-    Padding: 10px;
- }
- /*criando o layout de duas colunas*/
- *{
-    box-sizing: border-box;
- }
- .row {
-    display: flex;
-    flex-wrap: wrap;
- }
- .post-text-box {
-    flex: 70%;
-    padding: 20px;
- }
- .profile {
-    flex: 70%;
-    padding: 20px;
- }
- /*imagem de perfil e estilo de cabeçalho*/
- .profile img {
-    largura: 120px;
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
- }
- .profile h1 {
-    text-align: center;
- }
+    margin-top: 50px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
